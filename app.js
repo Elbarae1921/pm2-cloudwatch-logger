@@ -5,7 +5,7 @@ const pm2 = require('pm2');
 const winston = require('winston');
 const WinstonCloudWatch = require('winston-cloudwatch');
 
-const AWS_ACCESS_KEY_ID = process.env.ACCESS_KEY_ID;
+const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
 const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
 
 const winstonCloudwatchTransport = new WinstonCloudWatch({
