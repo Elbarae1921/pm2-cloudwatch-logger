@@ -1,26 +1,27 @@
 {
-    "name": "pm2-cloudwatch-logger",
-    "version": "1.0.0",
-    "description": "PM2 CloudWatch Logger Module",
-    "main": "app.js",
-    "dependencies": {
-        "@aws-sdk/client-cloudwatch-logs": "^3.303.0",
-        "pm2": "^5.1.2",
-        "pmx": "beta",
-        "winston": "^3.8.2",
-        "winston-cloudwatch": "^6.1.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Elbarae1921/pm2-cloudwatch-logger"
-    },
-    "apps": [
-        {
-            "merge_logs": true,
-            "max_memory_restart": "200M",
-            "script": "app.js"
-        }
-    ],
-    "author": "Elbarae Rguig",
-    "license": "MIT"
+  "name": "pm2-cloudwatch-logger",
+  "version": "1.0.0",
+  "description": "PM2 CloudWatch Logger Module",
+  "main": "app.js",
+  "dependencies": {
+      "@aws-sdk/client-cloudwatch-logs": "^3.303.0",
+      "dotenv": "^16.0.3",
+      "pm2": "^5.1.2",
+      "pmx": "beta",
+      "winston": "^3.8.2",
+      "winston-cloudwatch": "^6.1.1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Elbarae1921/pm2-cloudwatch-logger"
+  },
+  "apps": [
+      {
+          "merge_logs": true,
+          "max_memory_restart": "200M",
+          "script": "app.js"
+      }
+  ],
+  "author": "Elbarae Rguig",
+  "license": "MIT"
 }

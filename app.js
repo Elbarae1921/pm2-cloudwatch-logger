@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 var pmx = require('pmx');
 const pm2 = require('pm2');
 
